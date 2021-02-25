@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Runing JUnit tests
+      - name: Running JUnit tests
         run: |
           echo Starting tests:
           mkdir bin
